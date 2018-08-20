@@ -1,0 +1,683 @@
+/* GLOBALS */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Spectral', serif;
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a {
+  color: #E5E5E5;
+}
+
+nav a:hover {
+  color: #1C4D8D;
+}
+
+nav {
+  text-decoration: none;
+}
+
+.menuitem {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.social {
+  width: 42px;
+  height: 42px;
+  margin-left: 5px;
+}
+
+.social img:hover {
+  color: #1C4D8D;
+}
+
+.titlecont {
+  margin-top: 5.5%;
+  font-size: 50px;
+}
+
+.bluetext {
+  color: #1C4D8D;
+}
+
+.logos {
+  height: 90px;
+  width: 90px;
+  text-align: center;
+}
+
+.logosp {
+  text-align: center;
+}
+
+#hide-text {
+  color: transparent;
+}
+
+.h2ps {
+font-size: 42px;
+}
+
+.h3ps {
+font-size: 38px;
+}
+
+/* NAVBAR */
+
+#masterhead {
+  text-align: center;
+  color: #E5E5E5;
+  background: #222222;
+  border-bottom: solid 3px #1C4D8D;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  animation: slideInDown 1.5s linear;
+  position: fixed;
+  z-index: 1;
+}
+
+#menu1 {
+  float: left;
+  margin-left: 25px;
+}
+
+#menu1 a {
+  font-size: 48px;
+  margin-top: 2%;
+}
+
+#menu2 {
+  float: right;
+  margin-right: 25px;
+}
+
+#menu2 a {
+  margin-top: 5.5%;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+/* HOME */
+
+#homecont {
+  background-image: url("../images/bwbg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: #1C4D8D;
+  padding-top: 55%;
+}
+
+#greeting1 {
+  margin-bottom: 5px;
+  font-size: 44px;
+}
+
+#greeting2 {
+  font-size: 34px;
+}
+
+.typed-cursor.typed-cursor--blink {
+  display: none;
+}
+
+#typedstuff {
+  display: inline-block;
+}
+
+#viewworkbtn {
+  padding: 10px;
+  font-size: 40px;
+  border: solid #1C4D8D 3px;
+  border-radius: 7px;
+  animation: fadeIn 1.5s ease-in;
+  width: 575px;
+  color: #1C4D8D;
+  margin-bottom: 10px;
+}
+
+#viewworkbtn:hover {
+  background-color: #1C4D8D;
+  color: #E5E5E5;
+}
+
+/* ABOUT */
+
+#aboutcont {
+  height: 100vh;
+  text-align: center;
+  color: #E5E5E5;
+  background: #222222;
+  padding-top: 4%;
+}
+
+#aboutmepic {
+  margin-top: 15%;
+  height: 550px;
+  width: 425px;
+}
+
+#aboutmepar {
+  text-align: center;
+  margin-top: 25%;
+}
+
+.dallas {
+  font-size: 42px;
+}
+
+/* SKILLS */
+
+#skillscont {
+  height: 100vh;
+  text-align: center;
+  background: #E5E5E5;
+  color: #222222;
+  padding-top: 4%;
+}
+
+#descont {
+  text-align: left;
+  margin-top: 25%;
+}
+
+#descont p {
+  margin-bottom: 50%;
+}
+
+#skillscontbluebg {
+  height: 100%;
+  margin-top: 50%;
+  padding-top: 10%;
+  background-color: #1C4D8D;
+  text-align: center;
+  border: solid 3px #000000;
+  border-radius: 7px;
+}
+
+#specialskill {
+  margin-left: 10px;
+}
+
+.logosp {
+  color: #000000;
+}
+
+#devcont {
+  text-align: right;
+  margin-top: 25%;
+}
+
+#devcont p {
+  margin-bottom: 50%;
+}
+
+/* PORTFOLIO */
+
+#portcont {
+  height: 100%;
+  padding-top: 4%;
+  padding-bottom: 8%;
+  background: #222222;
+  text-align: center;
+  color: #E5E5E5;
+}
+
+.workpic {
+  margin-top: 5%;
+  height: 550px;
+  width: 550px;
+  border-radius: 7px;
+}
+
+.workhov:hover{
+  opacity: .7;
+  -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+  transition: opacity .3s ease-out;
+}
+
+.workblock {
+  background: #353535;
+  color: #E5E5E5;
+  border-radius: 7px;
+  width: 550px;
+  margin-top: 1%;
+  padding-top: 2%;
+  margin-bottom: 3%;
+  height: 100%;
+  display: inline-block;
+}
+
+#lastworkblock {
+  background: #353535;
+  color: #E5E5E5;
+  border-radius: 7px;
+  width: 550px;
+  margin-top: 1%;
+  padding-top: 2%;
+  height: 100%;
+  display: inline-block;
+}
+
+.worktitle {
+  font-size: 34px;
+  margin-top: 5px;
+}
+
+.workpara {
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.workbtn {
+  padding: 5px;
+  color: #E5E5E5;
+  border: #E5E5E5 solid 2px;
+  border-radius: 7px;
+  float: right;
+  font-size: 22px;
+}
+
+.workbtn:hover {
+  background: #E5E5E5;
+  color: #222222;
+}
+
+.parabtncont {
+  display: inline-block;
+}
+
+/* CONTACT */
+
+#contactcont {
+  text-align: center;
+  background: #E5E5E5;
+  color: #222222;
+  height: 94vh;
+  padding-top: 4%;
+}
+
+#contactconttext {
+  text-align: center;
+  margin-top: 20%;
+}
+
+#contactcontrighttext {
+  text-align: center;
+  margin-top: 25%;
+}
+
+#sendemailbtn {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 40px;
+  color: #222222;
+  border: solid #222222 3px;
+  border-radius: 7px;
+  width: 550px;
+  text-align: center;
+}
+
+#sendemailbtn:hover {
+  background-color: #222222;
+  color: #E5E5E5;
+}
+
+.btnitem {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 40px;
+  color: #222222;
+  border: solid #222222 3px;
+  border-radius: 7px;
+  width: 225px;
+  text-align: center;
+}
+
+.btnitem:hover {
+  background-color: #222222;
+  color: #E5E5E5;
+}
+
+/* FOOTER STUFF */
+
+#mainfoot {
+  text-align: center;
+  background: #222222;
+  color: #E5E5E5;
+  height: 100px;
+  padding-top: 1%;
+  width: 100%;
+  bottom: 0;
+  font-size: 28px;
+}
+
+#footername {
+  padding-bottom: 2px;
+}
+
+#mainfoot a:hover {
+  color: #1C4D8D;
+}
+
+/* ANIMATION KEYFRAMES */
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: .1;
+  }
+
+  50% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* MEDIA QUERIES */
+
+/* @media only screen and (min-width: 768px){
+  #aboutmepic {
+    margin-top: 15%;
+    height: 550px;
+    width: 425px;
+  }
+
+  #aboutmepar {
+    text-align: center;
+    margin-top: 25%;
+  }
+
+  .dallas {
+    font-size: 32px;
+  }
+
+  #descont {
+    text-align: left;
+    margin-top: 25%;
+  }
+
+  #descont p {
+    margin-bottom: 50%;
+  }
+
+  #skillscontbluebg {
+    height: 100%;
+    margin-top: 50%;
+    padding-top: 10%;
+    background-color: #1C4D8D;
+    text-align: center;
+    border: solid 3px #000000;
+    border-radius: 7px;
+  }
+
+  #devcont {
+    text-align: right;
+    margin-top: 25%;
+  }
+
+  #devcont p {
+    margin-bottom: 50%;
+  }
+
+  .workpic {
+    margin-top: 20px;
+    height: 375px;
+    width: 375px;
+  }
+
+  .workblock {
+    width: 375px;
+    display: inline-block;
+  }
+
+  #lastworkblock {
+    width: 375px;
+  }
+
+  #contactcont {
+    height: 91vh;
+    padding-top: 1.5%;
+  }
+
+  #contactconttext {
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  #contactcontrighttext {
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  #sendemailbtn {
+    margin-top: 4%;
+    padding: 10px;
+    font-size: 26px;
+    width: 480px;
+  }
+
+  .btnitem {
+    margin-top: 4%;
+    padding: 10px;
+    font-size: 26px;
+  }
+} */
+
+
+@media only screen and (min-width: 992px){
+
+  .logos {
+    height: 75px;
+    width: 75px;
+    text-align: center;
+  }
+
+  .h2ps {
+  font-size: 32px;
+  }
+
+  .h3ps {
+  font-size: 28px;
+  }
+
+  .titlecont {
+    font-size: 42px;
+    margin-top: 2.5%;
+  }
+
+  #masterhead {
+    height: 65px;
+  }
+
+  #menu1 a {
+    font-size: 42px;
+    margin-top: 0%;
+  }
+
+  #menu2 a {
+    margin-top: 2.5%;
+    font-size: 24px;
+  }
+
+  #homecont {
+    padding-top: 18%;
+    color: #222222;
+  }
+
+  #aboutcont {
+    padding-top: 1.5%;
+  }
+
+#aboutmepic {
+  margin-top: 0%;
+  height: 550px;
+  width: 425px;
+}
+
+#aboutmepar {
+  margin-top: 10%;
+  text-align: right;
+}
+
+#skillscont {
+  padding-top: 1.5%;
+}
+
+#skillssubcont {
+  margin-top: 2.5%;
+}
+
+#descont {
+  text-align: left;
+  margin-top: 2.5%;
+}
+
+#descont p {
+  margin-bottom: 4%;
+}
+
+#skillscontbluebg {
+  margin-top: 4%;
+  padding: 5%;
+  height: 100%;
+}
+
+#devcont {
+  text-align: right;
+  margin-top: 2.5%;
+}
+
+#devcont p {
+  margin-bottom: 4%;
+}
+
+#portcont {
+  padding-top: 1.5%;
+  background: #222222;
+  text-align: center;
+}
+
+.worktitle {
+  font-size: 24px;
+}
+
+.workpara {
+  font-size: 22px;
+}
+
+.workpic {
+  margin-top: 20px;
+  height: 375px;
+  width: 375px;
+}
+
+.workblock {
+  width: 375px;
+}
+
+#lastworkblock {
+  width: 375px;
+}
+
+/* CONTACT */
+
+#contactcont {
+  height: 91vh;
+  padding-top: 1.5%;
+}
+
+#contactconttext {
+  text-align: left;
+  margin-top: 8%;
+}
+
+#contactcontrighttext {
+  text-align: right;
+  margin-top: 8%;
+}
+
+#sendemailbtn {
+  margin-top: 4%;
+  padding: 10px;
+  font-size: 26px;
+  width: 480px;
+}
+
+.btnitem {
+  margin-top: 4%;
+  padding: 10px;
+  font-size: 26px;
+}
+
+#mainfoot {
+  height: 65px;
+  padding-top: 1.5%;
+  font-size: 18px;
+}
+
+#footername {
+  padding-bottom: 2px;
+}
+
+}
