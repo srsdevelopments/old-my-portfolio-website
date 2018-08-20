@@ -562,11 +562,10 @@ font-size: 38px;
 
   #homecont {
     padding-top: 18%;
-    color: #222222;
   }
 
   #aboutcont {
-    padding-top: 1.5%;
+    padding-top: 2%;
   }
 
 #aboutmepic {
@@ -581,7 +580,7 @@ font-size: 38px;
 }
 
 #skillscont {
-  padding-top: 1.5%;
+  padding-top: 2%;
 }
 
 #skillssubcont {
@@ -613,7 +612,7 @@ font-size: 38px;
 }
 
 #portcont {
-  padding-top: 1.5%;
+  padding-top: 2%;
   background: #222222;
   text-align: center;
 }
@@ -644,7 +643,7 @@ font-size: 38px;
 
 #contactcont {
   height: 91vh;
-  padding-top: 1.5%;
+  padding-top: 2%;
 }
 
 #contactconttext {
