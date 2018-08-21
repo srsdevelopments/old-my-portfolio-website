@@ -86,7 +86,7 @@ font-size: 38px;
   color: #ffffff;
   background: #101010;
   border-bottom: solid 3px #1C4D8D;
-  height: 100px;
+  height: 150px;
   width: 100%;
   position: absolute;
   animation: slideInDown 1.5s linear;
@@ -101,7 +101,7 @@ font-size: 38px;
 
 #menu1 a {
   font-size: 48px;
-  margin-top: 2%;
+  margin-top: 8%;
 }
 
 #menu2 {
@@ -110,7 +110,7 @@ font-size: 38px;
 }
 
 #menu2 a {
-  margin-top: 5.5%;
+  margin-top: 11%;
   margin-right: 10px;
   font-size: 24px;
 }
@@ -130,11 +130,11 @@ font-size: 38px;
 
 #greeting1 {
   margin-bottom: 5px;
-  font-size: 52px;
+  font-size: 72px;
 }
 
 #greeting2 {
-  font-size: 52px;
+  font-size: 72px;
 }
 
 .typed-cursor.typed-cursor--blink {
@@ -146,7 +146,7 @@ font-size: 38px;
 }
 
 #viewworkbtn {
-  padding: 5px;
+  padding: 15px;
   font-size: 52px;
   border: solid #ffffff 3px;
   border-radius: 10px;
@@ -479,7 +479,16 @@ font-size: 38px;
     padding-bottom: 17%;
   }
 
+  #greeting1 {
+    font-size: 52px;
+  }
+
+  #greeting2 {
+    font-size: 52px;
+  }
+
   #viewworkbtn {
+    padding: 5px;
     width: 70%;
   }
 
