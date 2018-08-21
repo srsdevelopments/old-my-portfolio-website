@@ -130,11 +130,11 @@ font-size: 38px;
 
 #greeting1 {
   margin-bottom: 5px;
-  font-size: 50px;
+  font-size: 52px;
 }
 
 #greeting2 {
-  font-size: 50px;
+  font-size: 52px;
 }
 
 .typed-cursor.typed-cursor--blink {
@@ -147,13 +147,13 @@ font-size: 38px;
 
 #viewworkbtn {
   padding: 5px;
-  font-size: 50px;
+  font-size: 52px;
   border: solid #ffffff 3px;
-  border-radius: 7px;
+  border-radius: 10px;
   animation: fadeIn 1.5s ease-in;
   width: 100%;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #viewworkbtn:hover {
@@ -245,7 +245,7 @@ font-size: 38px;
   margin-top: 5%;
   height: 550px;
   width: 550px;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .workhov:hover{
@@ -259,7 +259,7 @@ font-size: 38px;
 .workblock {
   background: #252525;
   color: #ffffff;
-  border-radius: 7px;
+  border-radius: 10px;
   width: 550px;
   margin-top: 1%;
   padding-top: 2%;
@@ -271,7 +271,7 @@ font-size: 38px;
 #lastworkblock {
   background: #252525;
   color: #ffffff;
-  border-radius: 7px;
+  border-radius: 10px;
   width: 550px;
   margin-top: 1%;
   padding-top: 2%;
@@ -320,7 +320,7 @@ font-size: 38px;
   font-size: 50px;
   color: #000000;
   border: solid #000000 3px;
-  border-radius: 7px;
+  border-radius: 10px;
   width: 100%;
   text-align: center;
 }
@@ -336,7 +336,7 @@ font-size: 38px;
   font-size: 50px;
   color: #000000;
   border: solid #000000 3px;
-  border-radius: 7px;
+  border-radius: 10px;
   width: 100%;
   text-align: center;
 }
@@ -456,7 +456,7 @@ font-size: 38px;
   }
 
   .titlecont {
-    font-size: 42px;
+    font-size: 44px;
     margin-top: 2.5%;
   }
 
