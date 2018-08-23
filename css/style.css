@@ -316,7 +316,7 @@ font-size: 38px;
 
 #sendemailbtn {
   margin-top: 1%;
-  padding: 10px;
+  padding: 15px;
   font-size: 50px;
   color: #000000;
   border: solid #000000 3px;
@@ -332,13 +332,17 @@ font-size: 38px;
 
 .btnitem {
   margin-top: 1%;
-  padding: 10px;
+  padding: 15px;
   font-size: 50px;
   color: #000000;
   border: solid #000000 3px;
   border-radius: 10px;
   width: 100%;
   text-align: center;
+}
+
+#bottombtn1 {
+  margin-bottom: 3%;
 }
 
 .btnitem:hover {
@@ -426,6 +430,45 @@ font-size: 38px;
   100% {
     opacity: 1;
   }
+}
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    /* background-color: rgba(32, 152, 209, 0.75); */
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    /* background-color: rgba(32, 152, 209, 0.75); */
+  }
+}
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* background-color: #2098D1; */
+  /* background-color: #2098d1; */
+  /* color: white; */
 }
 
 /* MEDIA QUERIES */
@@ -586,16 +629,19 @@ font-size: 38px;
 
 #sendemailbtn {
   margin-top: 4%;
-  padding: 10px;
   font-size: 32px;
-  width: 85%;
+  width: 90%;
 }
 
 .btnitem {
   margin-top: 4%;
-  padding: 10px;
   font-size: 32px;
   width: 40%;
+}
+
+#bottombtn1 {
+  margin-bottom: 0%;
+  margin-right: 3%;
 }
 
 #mainfoot {
