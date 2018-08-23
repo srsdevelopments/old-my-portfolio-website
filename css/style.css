@@ -43,6 +43,7 @@ nav {
 .titlecont {
   margin-top: 5.5%;
   font-size: 58px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .bluetext {
@@ -73,6 +74,7 @@ font-size: 44px;
 
 .s2ps {
   font-size: 42px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .s3ps {
@@ -92,6 +94,7 @@ font-size: 38px;
   animation: slideInDown 1.5s linear;
   position: fixed;
   z-index: 1;
+  font-family: 'Libre Baskerville', serif;
 }
 
 #menu1 {
@@ -100,7 +103,7 @@ font-size: 38px;
 }
 
 #menu1 a {
-  font-size: 48px;
+  font-size: 44px;
   margin-top: 2.5%;
 }
 
@@ -112,7 +115,7 @@ font-size: 38px;
 #menu2 a {
   margin-top: 5.8%;
   margin-right: 10px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 /* HOME */
@@ -174,8 +177,9 @@ font-size: 38px;
 
 #aboutmepic {
   margin-top: 5%;
-  height: 550px;
-  width: 425px;
+  height: 425px;
+  width: 500px;
+  border-radius: 10px;
 }
 
 #aboutmepar {
@@ -214,7 +218,7 @@ font-size: 38px;
 }
 
 #specialskill {
-  margin-left: 10px;
+  margin-left: 10%;
 }
 
 .logosp {
@@ -263,9 +267,12 @@ font-size: 38px;
   width: 550px;
   margin-top: 1%;
   padding-top: 2%;
+  padding-bottom: 2%;
   margin-bottom: 3%;
   height: 100%;
   display: inline-block;
+  padding-left: .5%;
+  padding-right: .5%;
 }
 
 #lastworkblock {
@@ -275,22 +282,54 @@ font-size: 38px;
   width: 550px;
   margin-top: 1%;
   padding-top: 2%;
+  padding-bottom: 2%;
   height: 100%;
   display: inline-block;
+  padding-left: .5%;
+  padding-right: .5%;
 }
 
 .worktitle {
   font-size: 34px;
-  margin-top: 5px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .workpara {
   font-size: 32px;
-  margin-right: 10px;
 }
 
-.parabtncont {
-  display: inline-block;
+.workbtn1 {
+  float: left;
+  color: #ffffff;
+  border: solid 3px #ffffff;
+  border-radius: 10px;
+  font-size: 32px;
+  width: 45%;
+  margin-left: 2%;
+  text-align: center;
+  padding: 1px;
+}
+
+.workbtn1:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.workbtn2 {
+  float: right;
+  color: #ffffff;
+  border: solid 3px #ffffff;
+  border-radius: 10px;
+  font-size: 32px;
+  width: 45%;
+  margin-right: 2%;
+  text-align: center;
+  padding: 1px;
+}
+
+.workbtn2:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
 /* CONTACT */
@@ -540,9 +579,9 @@ font-size: 38px;
   }
 
 #aboutmepic {
-  margin-top: 0%;
-  height: 550px;
-  width: 425px;
+  margin-top: 5%;
+  height: 500px;
+  width: 575px;
 }
 
 #aboutmepar {
@@ -593,6 +632,14 @@ font-size: 38px;
 }
 
 .workpara {
+  font-size: 22px;
+}
+
+.workbtn1 {
+  font-size: 22px;
+}
+
+.workbtn2 {
   font-size: 22px;
 }
 
