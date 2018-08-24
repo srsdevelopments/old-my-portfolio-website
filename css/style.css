@@ -74,7 +74,6 @@ font-size: 44px;
 
 .s2ps {
   font-size: 42px;
-  font-family: 'Libre Baskerville', serif;
 }
 
 .s3ps {
@@ -94,7 +93,6 @@ font-size: 38px;
   animation: slideInDown 1.5s linear;
   position: fixed;
   z-index: 1;
-  font-family: 'Libre Baskerville', serif;
 }
 
 #menu1 {
@@ -105,6 +103,7 @@ font-size: 38px;
 #menu1 a {
   font-size: 44px;
   margin-top: 2.5%;
+  font-family: 'Libre Baskerville', serif;
 }
 
 #menu2 {
@@ -291,7 +290,6 @@ font-size: 38px;
 
 .worktitle {
   font-size: 34px;
-  font-family: 'Libre Baskerville', serif;
 }
 
 .workpara {
