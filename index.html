@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bower_components/aos/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="bower_components/aos/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./javascript/app.js"></script>
@@ -16,18 +17,31 @@
   <body>
 
     <header id="masterhead">
-      <nav id="menu1">
+      <nav class="menu1">
           <a href="index.html" id="logo" class="hvr-back-pulse menuitem">STEVEN SHIRLEY</a>
       </nav>
-      <nav id="menu2">
+
+      <nav class="topnav" id="myTopnav">
+  <a href="#aboutcont" class="hvr-back-pulse">ABOUT</a>
+  <a href="#skillscont" class="hvr-back-pulse">SKILLS</a>
+  <a href="#portcont" class="hvr-back-pulse">PORTFOLIO</a>
+  <a href="#contactcont" class="hvr-back-pulse">CONTACT</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</nav>
+
+
+      <!-- <nav class="navbar navbar-expand-lg sticky-top justify-content-between" id="menu2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <a href="#aboutcont" class="hvr-back-pulse menuitem">ABOUT</a>
         <a href="#skillscont" class="hvr-back-pulse menuitem">SKILLS</a>
         <a href="#portcont" class="hvr-back-pulse menuitem">PORTFOLIO</a>
         <a href="#contactcont" class="hvr-back-pulse menuitem">CONTACT</a>
-        <!-- <a href="https://github.com/srsdevelopments"><img src="./images/giticon.png" alt="GitHub" class="social"></a>
-        <a href="https://www.linkedin.com/in/stevenrichardshirley/"><img src="./images/linkicon.png" alt="LinkedIn" class="social"></a> -->
-        <!-- <a href="https://www.youtube.com/"><img src="./images/youtubeicon.png" alt="YouTube" class="social"></a> -->
-      </nav>
+      </nav> -->
     </header>
 
   <section id="homecont">
@@ -170,7 +184,7 @@
 
       <div class="col-sm-12 col-lg-6" class="work">
         <div data-aos="fade" data-aos-easing="ease-in-sine">
-          <a href="" class="workhov">
+          <a href="https://jamsesh2018.firebaseapp.com/" class="workhov">
         <img class="workpic" src="./images/jampic.png">
       </a>
     <br>
@@ -263,6 +277,17 @@ $('a[href*="#"]').click(function(event) {
 </script>
 
 <script>AOS.init();</script>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
   </body>
 </html>
