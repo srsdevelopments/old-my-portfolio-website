@@ -183,6 +183,18 @@ font-size: 38px;
   margin-top: 10%;
 }
 
+#viewresume {
+border: solid 2px #ffffff;
+padding: 15px;
+border-radius: 10px;
+font-size: 42px;
+}
+
+#viewresume:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
 /* SKILLS */
 
 #skillscont {
@@ -595,8 +607,12 @@ font-size: 38px;
 }
 
 #aboutmepar {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: right;
+}
+
+#viewresume {
+ font-size: 28px;
 }
 
 #skillscont {
