@@ -607,7 +607,7 @@ font-size: 42px;
 }
 
 #aboutmepar {
-  margin-top: 4%;
+  margin-top: 10%;
   text-align: right;
 }
 
@@ -687,27 +687,27 @@ font-size: 42px;
 
 #contactcont {
   padding-top: 2%;
-  padding-bottom: 9%;
+  padding-bottom: 7%;
 }
 
 #contactconttext {
   text-align: left;
-  margin-top: 4.5%;
+  margin-top: 2.5%;
 }
 
 #contactcontrighttext {
   text-align: right;
-  margin-top: 4.5%;
+  margin-top: 2.5%;
 }
 
 #sendemailbtn {
-  margin-top: 4%;
+  margin-top: 2%;
   font-size: 32px;
   width: 90%;
 }
 
 .btnitem {
-  margin-top: 4%;
+  margin-top: 2%;
   font-size: 32px;
   width: 40%;
 }
@@ -724,7 +724,7 @@ font-size: 42px;
 }
 
 #footername {
-  padding-bottom: .3%;
+  padding-bottom: .15%;
 }
 
 }
