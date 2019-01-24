@@ -20,6 +20,8 @@ a {
 
 nav a:hover {
   color: #1C4D8D;
+  background: #ffffff;
+  border-radius: 5px;
 }
 
 nav {
@@ -46,9 +48,9 @@ nav {
   font-family: 'Libre Baskerville', serif;
 }
 
-.bluetext {
+/* .bluetext {
   color: #1C4D8D;
-}
+} */
 
 .logos {
   height: 90px;
@@ -85,14 +87,29 @@ font-size: 38px;
 #masterhead {
   text-align: center;
   color: #ffffff;
-  background: #101010;
-  border-bottom: solid 3px #1C4D8D;
+  background: transparent;
   height: 140px;
   width: 100%;
   position: absolute;
-  animation: slideInDown 1.5s linear;
+  animation: fadeIn 1.5s ease-in;
   position: fixed;
   z-index: 1;
+  border-bottom-color: #050505;
+}
+
+#masterhead.scrolled {
+    background: #ffffff;
+    transition: linear 500ms;
+}
+
+#masterhead.scrolled nav a {
+  color: #000000;
+}
+
+#masterhead.scrolled nav a:hover {
+  background: #000000;
+  color: #1C4D8D;
+  border-radius: 5px;
 }
 
 #menu1 {
@@ -103,6 +120,7 @@ font-size: 38px;
   font-size: 52px;
   margin-top: .2%;
   font-family: 'Libre Baskerville', serif;
+  border-radius: 5px;
 }
 
 #menu2 {
@@ -112,6 +130,7 @@ font-size: 38px;
 #menu2 a {
   margin-top: .2%;
   font-size: 38px;
+  border-radius: 5px;
 }
 
 /* HOME */
@@ -192,7 +211,7 @@ font-size: 42px;
 
 #viewresume:hover {
   background: #ffffff;
-  color: #000000;
+  color: #1C4D8D;
 }
 
 /* SKILLS */
@@ -319,7 +338,7 @@ font-size: 42px;
 
 .workbtn1:hover {
   background: #ffffff;
-  color: #000000;
+  color: #1C4D8D;
 }
 
 .workbtn2 {
@@ -336,7 +355,7 @@ font-size: 42px;
 
 .workbtn2:hover {
   background: #ffffff;
-  color: #000000;
+  color: #1C4D8D;
 }
 
 /* CONTACT */
@@ -373,7 +392,7 @@ font-size: 42px;
 
 #sendemailbtn:hover {
   background-color: #000000;
-  color: #E5E5E5;
+  color: #1C4D8D;
 }
 
 .btnitem {
@@ -393,14 +412,14 @@ font-size: 42px;
 
 .btnitem:hover {
   background-color: #000000;
-  color: #E5E5E5;
+  color: #1C4D8D;
 }
 
 /* FOOTER STUFF */
 
 #mainfoot {
   text-align: center;
-  background: #101010;
+  background: #000000;
   color: #ffffff;
   height: 100px;
   padding-top: 1%;
