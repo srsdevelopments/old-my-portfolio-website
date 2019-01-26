@@ -19,9 +19,9 @@ a {
 }
 
 nav a:hover {
-  color: #1C4D8D;
-  background: #ffffff;
-  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
 }
 
 nav {
@@ -94,7 +94,6 @@ font-size: 38px;
   animation: fadeIn 1.5s ease-in;
   position: fixed;
   z-index: 1;
-  border-bottom-color: #050505;
 }
 
 #masterhead.scrolled {
@@ -103,13 +102,12 @@ font-size: 38px;
 }
 
 #masterhead.scrolled nav a {
-  color: #000000;
+  color: #1C4D8D;
 }
 
 #masterhead.scrolled nav a:hover {
-  background: #000000;
-  color: #1C4D8D;
-  border-radius: 5px;
+  text-decoration: underline;
+  text-decoration-color: #1C4D8D;
 }
 
 #menu1 {
